@@ -14,6 +14,8 @@ before_script:
 
 script:
   - mdbook build && mdbook test
+  - touch CNAME
+  - echo doc.ajmalaju.com >> CNAME
 
 deploy:
   provider: pages
@@ -23,7 +25,3 @@ deploy:
   keep-history: false
   on:
     branch: master
-
-after_script:
-  - touch CNAME
-  - echo doc.ajmalaju.com >> CNAME
