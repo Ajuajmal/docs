@@ -16,8 +16,6 @@ script:
   - mdbook build && mdbook test
   - touch CNAME
   - echo doc.ajmalaju.com >> CNAME
-  -pwd
-  -ls
 
 deploy:
   provider: pages
