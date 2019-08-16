@@ -4,3 +4,4 @@
   - [gh-pages/gl-pages (Using github/gitlab and CI )](./deploy/chapter_1.md)
     - [Static website](./deploy/chapter_1.md)
     - [Deploy  mdbook](./deploy/chapter_1.md)
+  - [ngninx-gunicorn at EC2]
