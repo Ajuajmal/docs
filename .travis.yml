@@ -25,3 +25,10 @@ deploy:
   keep-history: false
   on:
     branch: master
+
+after_script:
+  - git clone https://github.com/Ajuajmal/docs.git
+  - cd docs && git checkout gh-pages
+  - touch CNAME && echo doc.ajmalaju.com >> CNAME
+  - git add CNAME && git commit -m "add CNAME"
+  - git push -u origin gh-pages
