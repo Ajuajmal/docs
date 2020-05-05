@@ -5,3 +5,8 @@
   - debian / Linux der
   - windows
   - mac
+
+- [[install composer for PHP](package-managers/composer.html)
+  - debian / Linux der
+  - windows
+  - mac
