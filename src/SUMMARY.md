@@ -10,6 +10,8 @@
   - [ npm for Node JS](./package-managers/npm.md)
   - [ composer for PHP](./package-managers/composer.md)
   - [ pip for Python ](./package-managers/pip.md)
+- [Install Extensions and Packages](./install-extension/index.md)
+  - [Install php extension for Laravel](./install-extension/install-php-extension-for-laravel.md)
 
 - [Usual Mistakes / Errors / Bug Fix's](./mistakes-by-dev/index.md)
   - [Linux](./mistakes-by-dev/linux/index.md)
